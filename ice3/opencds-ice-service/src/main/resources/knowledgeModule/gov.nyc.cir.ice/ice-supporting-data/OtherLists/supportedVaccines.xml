@@ -1016,6 +1016,14 @@
 		</cdsListItemConceptMapping>
 	</cdsListItem>
 	<cdsListItem>
+		<cdsListItemKey>230</cdsListItemKey>
+		<cdsListItemValue>COVID-19, mRNA, 6mos-5yrs, bivalent booster, Moderna</cdsListItemValue>
+		<cdsListItemConceptMapping>
+			<code>ICE230</code>
+			<displayName>COVID-19, mRNA, 6mos-5yrs, bivalent booster, Moderna</displayName>
+		</cdsListItemConceptMapping>
+	</cdsListItem>
+	<cdsListItem>
 		<cdsListItemKey>300</cdsListItemKey>
 		<cdsListItemValue>COVID-19, mRNA, >= 12yrs, bivalent booster, Pfizer</cdsListItemValue>
 		<cdsListItemConceptMapping>
@@ -1029,6 +1037,14 @@
 		<cdsListItemConceptMapping>
 			<code>ICE301</code>
 			<displayName>COVID-19, mRNA, 5yrs-11yrs, bivalent booster, Pfizer</displayName>
+		</cdsListItemConceptMapping>
+	</cdsListItem>
+	<cdsListItem>
+		<cdsListItemKey>302</cdsListItemKey>
+		<cdsListItemValue>COVID-19, mRNA, 6mos-4yrs, bivalent booster, Pfizer</cdsListItemValue>
+		<cdsListItemConceptMapping>
+			<code>ICE302</code>
+			<displayName>COVID-19, mRNA, 6mos-4yrs, bivalent booster, Pfizer</displayName>
 		</cdsListItemConceptMapping>
 	</cdsListItem>
 	<cdsListItem>
