@@ -464,16 +464,6 @@
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE230"
-				displayName="Immunization Not Recommended (Proof of Immunity)" />
-			<fromConcepts codeSystem="2.16.840.1.113883.3.795.12.100.6"
-				codeSystemName="ICE3 Immunization Recommendation Reason"
-				displayName="Proof of Immunity">
-				<concept code="PROOF_OF_IMMUNITY" displayName="Proof of Immunity" />
-			</fromConcepts>
-		</conceptMapping>
-		<conceptMapping>
-			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
 				codeSystemName="OpenCDS concepts" code="ICE62" displayName="HPV Quadrivalent (Gardasil)" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="HPV Quadrivalent (Gardasil)">
@@ -531,10 +521,10 @@
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE198" displayName="DTP-Hep B-Hib Pentavalent Non-US"/>
+				codeSystemName="OpenCDS concepts" code="ICE198" displayName="DTP-Hep B-Hib, Pentavalent"/>
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
-				codeSystemName="Vaccines administered (CVX)" displayName="DTP-Hep B-Hib Pentavalent Non-US">
-				<concept code="198" displayName="DTP-Hep B-Hib Pentavalent Non-US" />
+				codeSystemName="Vaccines administered (CVX)" displayName="DTP-Hep B-Hib, Pentavalent">
+				<concept code="198" displayName="Hep B, adjuvanted" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
@@ -688,6 +678,14 @@
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="DTaP-Hib (PRP-T)-IPV">
 				<concept code="120" displayName="DTaP-Hib (PRP-T)-IPV" />
+			</fromConcepts>
+		</conceptMapping>
+		<conceptMapping>
+			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
+				codeSystemName="OpenCDS concepts" code="ICE120" displayName="DT-IPV adsorbed Non-US" />
+			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
+				codeSystemName="Vaccines administered (CVX)" displayName="DT-IPV adsorbed Non-US">
+				<concept code="195" displayName="DT-IPV adsorbed Non-US" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
@@ -1023,13 +1021,21 @@
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
 				<concept code="01" displayName="DTP" />
 			</fromConcepts>
-		</conceptMapping>		
+		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE09" displayName="Td" />
+				codeSystemName="OpenCDS concepts" code="ICE09" displayName="Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
-				codeSystemName="Vaccines administered (CVX)" displayName="Td">
-				<concept code="09" displayName="Td" />
+				codeSystemName="Vaccines administered (CVX)" displayName="Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed">
+				<concept code="09" displayName="Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed" />
+			</fromConcepts>
+		</conceptMapping>
+		<conceptMapping>
+			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
+				codeSystemName="OpenCDS concepts" code="ICE196" displayName="Td (adult) adsorbed, preservative free, Lf unspecified" />
+			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
+				codeSystemName="Vaccines administered (CVX)" displayName="Td (adult) adsorbed, preservative free, Lf unspecified">
+				<concept code="196" displayName="Td (adult) adsorbed, preservative free, Lf unspecified" />
 			</fromConcepts>
 		</conceptMapping>		
 		<conceptMapping>
@@ -1114,18 +1120,18 @@
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE207" displayName="COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose, Moderna" />
+				codeSystemName="OpenCDS concepts" code="ICE207" displayName="COVID-19, mRNA LNP-S, PF, Moderna" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="207" displayName="COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose, Moderna" />
+				<concept code="207" displayName="COVID-19, mRNA LNP-S, PF, Moderna" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE208" displayName="COVID-19, mRNA, LNP-S, PF 30 mcg/0.3 mL, Pfizer" />
+				codeSystemName="OpenCDS concepts" code="ICE208" displayName="COVID-19, mRNA LNP-S, PF, Pfizer" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="208" displayName="COVID-19, mRNA, LNP-S, PF 30 mcg/0.3 mL, Pfizer" />
+				<concept code="208" displayName="COVID-19, mRNA LNP-S, PF, Pfizer" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
@@ -1162,34 +1168,34 @@
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE217" displayName="COVID-19, mRNA LNP-S, PF, tris-sucrose, Pfizer" />
+				codeSystemName="OpenCDS concepts" code="ICE217" displayName="COVID-19, mRNA, 12+ yrs, Pfizer" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="217" displayName="COVID-19, mRNA LNP-S, PF, tris-sucrose, Pfizer" />
+				<concept code="217" displayName="COVID-19, mRNA, 12+ yrs, Pfizer" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE218" displayName="COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL, tris-sucrose, Pfizer" />
+				codeSystemName="OpenCDS concepts" code="ICE218" displayName="COVID-19, mRNA, 5-11 yrs, Pfizer" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="218" displayName="COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL, tris-sucrose, Pfizer" />
+				<concept code="218" displayName="COVID-19, mRNA, 5-11 yrs, Pfizer" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE219" displayName="COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose, Pfizer" />
+				codeSystemName="OpenCDS concepts" code="ICE219" displayName="COVID-19, mRNA, 6mos-4yrs, Pfizer" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="219" displayName="COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL, tris-sucrose, Pfizer" />
+				<concept code="219" displayName="COVID-19, mRNA, 6mos-4yrs, Pfizer" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE221" displayName="COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose" />
+				codeSystemName="OpenCDS concepts" code="ICE221" displayName="COVID-19, mRNA, 6-11 yrs, Moderna" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="221" displayName="COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose" />
+				<concept code="221" displayName="COVID-19, mRNA, 6-11 yrs, Moderna" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
@@ -1202,50 +1208,50 @@
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE228" displayName="COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose, Moderna" />
+				codeSystemName="OpenCDS concepts" code="ICE228" displayName="COVID-19, mRNA, 6mos-&lt;6yr, Moderna" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="228" displayName="COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose, Moderna" />
+				<concept code="228" displayName="COVID-19, mRNA, 6mos-&lt;6yr, Moderna" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE229" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose, Moderna" />
+				codeSystemName="OpenCDS concepts" code="ICE229" displayName="COVID-19, mRNA booster, 6+ yrs, Moderna" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="229" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose, Moderna" />
+				<concept code="229" displayName="COVID-19, mRNA booster, 6+ yrs, Moderna" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-					   codeSystemName="OpenCDS concepts" code="ICE230" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 10 mcg/0.2 mL dose, Moderna" />
-			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
-						  codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="230" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 10 mcg/0.2 mL dose, Moderna" />
-			</fromConcepts>
-		</conceptMapping>
-		<conceptMapping>
-			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE300" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 30 mcg/0.3 mL dose, Pfizer" />
+				codeSystemName="OpenCDS concepts" code="ICE230" displayName="COVID-19, mRNA, booster, 6 mos-5yrs, Moderna" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="300" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 30 mcg/0.3 mL dose, Pfizer" />
+				<concept code="230" displayName="COVID-19, mRNA, booster, 6 mos-5yrs, Moderna" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE301" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 10 mcg/0.2 mL dose, Pfizer" />
+				codeSystemName="OpenCDS concepts" code="ICE300" displayName="COVID-19, mRNA booster, 12+ yrs, Pfizer" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="301" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 10 mcg/0.2 mL dose, Pfizer" />
+				<concept code="300" displayName="COVID-19, mRNA booster, 12+ yrs, Pfizer" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-					   codeSystemName="OpenCDS concepts" code="ICE302" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 3 mcg/0.2 mL dose, Pfizer" />
+				codeSystemName="OpenCDS concepts" code="ICE301" displayName="COVID-19, mRNA booster, 5-11 yrs, Pfizer" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
-						  codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="302" displayName="COVID-19, mRNA, LNP-S, bivalent booster, PF, 3 mcg/0.2 mL dose, Pfizer" />
+				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
+				<concept code="301" displayName="COVID-19, mRNA booster, 5-11 yrs, Pfizer" />
+			</fromConcepts>
+		</conceptMapping>
+		<conceptMapping>
+			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
+				codeSystemName="OpenCDS concepts" code="ICE302" displayName="COVID-19, mRNA, booster, 6 mos-4 yrs, Pfizer" />
+			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
+				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
+				<concept code="302" displayName="COVID-19, mRNA, booster, 6 mos-4 yrs, Pfizer" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
@@ -1394,10 +1400,42 @@
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE75" displayName="Vaccinia (smallpox) vaccine (ACAM2000)" />
+				codeSystemName="OpenCDS concepts" code="ICE518" displayName="COVID-19, Inactivated, Non-US (VLA2001, Valneva)" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="75" displayName="Vaccinia (smallpox) vaccine (ACAM2000)" />
+				<concept code="518" displayName="COVID-19, Inactivated, Non-US (VLA2001, Valneva)" />
+			</fromConcepts>
+		</conceptMapping>
+		<conceptMapping>
+			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
+				codeSystemName="OpenCDS concepts" code="ICE519" displayName="COVID-19, mRNA bivalent, Non-US (Spikevax Bivalent)" />
+			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
+				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
+				<concept code="519" displayName="COVID-19, mRNA bivalent, Non-US (Spikevax Bivalent)" />
+			</fromConcepts>
+		</conceptMapping>
+		<conceptMapping>
+			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
+				codeSystemName="OpenCDS concepts" code="ICE520" displayName="COVID-19, mRNA bivalent, Non-US (Comirnaty Bivalent)" />
+			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
+				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
+				<concept code="520" displayName="COVID-19, mRNA bivalent, Non-US (Comirnaty Bivalent)" />
+			</fromConcepts>
+		</conceptMapping>
+		<conceptMapping>
+			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
+				codeSystemName="OpenCDS concepts" code="ICE521" displayName="COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK" />
+			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
+				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
+				<concept code="521" displayName="COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK" />
+			</fromConcepts>
+		</conceptMapping>
+		<conceptMapping>
+			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
+				codeSystemName="OpenCDS concepts" code="ICE75" displayName="Monkeypox Smallpox (ACAM2000)" />
+			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
+				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
+				<concept code="75" displayName="Monkeypox Smallpox (ACAM2000)" />
 			</fromConcepts>
 		</conceptMapping>
 		<conceptMapping>
@@ -1410,10 +1448,10 @@
 		</conceptMapping>
 		<conceptMapping>
 			<toConcept codeSystem="2.16.840.1.113883.3.795.12.1.1"
-				codeSystemName="OpenCDS concepts" code="ICE206" displayName="Vaccinia, smallpox monkeypox vaccine live, PF (JYNNEOS)" />
+				codeSystemName="OpenCDS concepts" code="ICE206" displayName="Monkeypox Smallpox (JYNNEOS), Vaccinia, live" />
 			<fromConcepts codeSystem="2.16.840.1.113883.12.292"
 				codeSystemName="Vaccines administered (CVX)" displayName="CVX">
-				<concept code="206" displayName="Vaccinia, smallpox monkeypox vaccine live, PF (JYNNEOS)" />
+				<concept code="206" displayName="Monkeypox Smallpox (JYNNEOS), Vaccinia, live" />
 			</fromConcepts>
 		</conceptMapping>
 		<timestamp>2022-08-15T00:00:00.606-05:00</timestamp>
