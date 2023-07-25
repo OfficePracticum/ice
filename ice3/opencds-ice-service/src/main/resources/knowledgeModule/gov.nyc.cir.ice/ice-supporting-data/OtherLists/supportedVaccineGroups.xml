@@ -134,7 +134,7 @@
 			<code>VACCINE_GROUP_CONCEPT_COVID19</code>
 			<displayName>COVID-19 vaccine group</displayName>
 		</cdsListItemConceptMapping>
-	</cdsListItem>
+	</cdsListItem>	
 	<cdsListItem>
 		<cdsListItemKey>905</cdsListItemKey>
 		<cdsListItemValue>RSV Injection Group</cdsListItemValue>
@@ -149,6 +149,14 @@
 		<cdsListItemConceptMapping>
 			<code>VACCINE_GROUP_CONCEPT_ORTHOPOXVIRUS</code>
 			<displayName>Orthopoxvirus Vaccine Group</displayName>
+		</cdsListItemConceptMapping>
+	</cdsListItem>	
+	<cdsListItem>
+		<cdsListItemKey>875</cdsListItemKey>
+		<cdsListItemValue>RSV Vaccine Group</cdsListItemValue>
+		<cdsListItemConceptMapping>
+			<code>VACCINE_GROUP_CONCEPT_RSV</code>
+			<displayName>RSV Vaccine Group</displayName>
 		</cdsListItemConceptMapping>
 	</cdsListItem>
 	<cdsVersion>gov.nyc.cir^ICE^1.0.0</cdsVersion>
